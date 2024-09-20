@@ -1,0 +1,53 @@
+{
+  "name": "gitlab-reviews",
+  "type": "module",
+  "version": "0.0.4",
+  "private": true,
+  "scripts": {
+    "dev:web": "vite",
+    "start": "tauri dev",
+    "build": "tauri build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:ts": "vue-tsc"
+  },
+  "dependencies": {
+    "@gitbeaker/rest": "^40.2.1",
+    "@tauri-apps/api": "next",
+    "@tauri-apps/plugin-autostart": "2.0.0-rc.0",
+    "@tauri-apps/plugin-http": "2.0.0-rc.0",
+    "@tauri-apps/plugin-process": "2.0.0-rc.1",
+    "@tauri-apps/plugin-updater": "2.0.0-rc.2",
+    "@vueuse/core": "^11.1.0",
+    "class-variance-authority": "^0.7.0",
+    "daisyui": "^4.12.10",
+    "date-fns": "^3.3.1",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.2.2",
+    "qs": "^6.11.2",
+    "tailwind-merge": "^2.2.1",
+    "vue": "^3.5.6",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.6.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tauri-apps/cli": "2.0.0-rc.3",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.11.20",
+    "@types/qs": "^6.9.12",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.4.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^9.10.0",
+    "postcss": "^8.4.35",
+    "prop-types": "^15.8.1",
+    "sass": "^1.79.1",
+    "stylomatic": "^0.8.1",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "2.1.6"
+  }
+}
